@@ -1,10 +1,13 @@
   
 'use strict';
 
+//Dependency
+
+//Configuration
 
 const PORT = process.env.PORT || 8080;
 
-
+  //Wrap your application Code
   const express = require('express');
   const app = express();
   app.use(express.json());
