@@ -1,9 +1,14 @@
   
 'use strict';
 
+//Dependency
+
+//Configuration
 
 const DESTINATION_URL = process.env.DESTINATION_URL || 'http://localhost:8080/ping';
 
+
+//Wrap the application code
   const http = require('http');
   setInterval(() => {
     console.log('send: ping');
